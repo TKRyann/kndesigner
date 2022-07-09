@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+background-image: url( principal.jpeg); 
+background-size: 43%; 
+background-repeat: ;
+
+} 
+h1.loja{
+    margin-top: 20px;
+    margin-bottom: 8px;  
+    font-size: 37px;
+    color: #020720; 
+}
+
+p.introdução{
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 400px;
+    font-size: 13px;
+    opacity: 0.9;
+    color: #020720;
+} 
+.container{
+    text-align: center;
+    width: 250px; 
+    height: 80px;
+    margin: 50px auto; 
+} 
+ img.logo{
+width: 270px;
+height: 140px; 
+ } 
+ ul.lista{
+    list-style: none;
+    margin: 48px;
+ } 
+  ul li a {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 13px;
+    border-radius: 6px 30px ;
+    transition:background 400ms; 
+  } 
+  ul li a:hover{
+    background: ;
+    cursor: pointer; 
+    filter:drop-shadow(30px 10px 4px #4444dd);
+  } 
+  footer.rodape{ 
+    margin-bottom: 80px;
+    font-size: 15px;
+    color: #00082F;;
+  } 
+  footer:hover{
+    opacity: 1;
+  }
