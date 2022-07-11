@@ -21,14 +21,17 @@ a:hover{
     cursor: pointer;
 }
 .nav{
+    margin: 10px;
+    width:30px;
+    height:30px; 
+    }
+.container-nav{
     text-decoration: none;
-    width:40px;
-    height:40px; 
-    position: relative;
-    } 
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
 body{
     text-decoration: none;
-    margin: 60px auto;
     background: #105ABB;
     background: linear-gradient(to right, #d60b20, #28d18e, #02a1f4, #db11d0 );
       background-size: 500%;
@@ -68,31 +71,32 @@ h1{
 
 } 
 p.sub-titulo{
+    max-width: 700px;
     margin: 60px auto;
     margin-top: 16px;
     display: flex; 
     justify-content: center;
     text-align: center; 
-    font-size: 16px;
+    font-size: 18px;
 }
-h4.text{  
-    margin-bottom: 0px;
-    margin-top: 60px;
-    text-align: center;
+h4.text{
+    margin: 0 auto 10;
+    max-width: 280px;
     display: flex; 
     justify-content: center;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 
 img.decoraçao{ 
-    margin: 60px auto;
+    margin: auto;
     width: 280px;
     display: flex;
-    position: relative;
 }
  .ver{  
-    margin: 60px auto;
-width: 140px;
+    margin: 10px auto 40px;
+    width: 140px;
     height: 40px;
     display: flex;
     align-items: center;
